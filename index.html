@@ -5,38 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <section>
     <nav>
-      <figure>
-        <img src="/HTML Practise Assets/FES.svg" alt="FES logo">
+      <figure class="">
+        <img class="logo" src="/HTML Practise Assets/FES.svg" alt="FES logo">
       </figure>
       <ul>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
+        <li><a href="#about">About</a></li>
+        <li><a href="#discord">Discord</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <header>
-      <div>
+    <header >
+      <div class="row">
+        <div >
         <h1>Best Place to Learn Frontend</h1>
-        <p>Go from absolute beginner to pro with a simplified process</p>
+        <p class="sub-header">Go from absolute beginner to pro with a simplified process</p>
         <button>Start now</button>
+        </div>
+        <figure><img src="/HTML Practise Assets/laptop.png" alt="Logo"></figure>
       </div>
-      <figure><img src="/HTML Practise Assets/laptop.png" alt="Logo"></figure>
-    </header>
+  </header>
   </section>
   <main>
 
     <section id="about">
       <h2>About</h2>
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, modi nulla accusantium eaque, perspiciatis quis ratione, consequatur rerum unde illum alias illo dicta tenetur placeat! Hic animi dicta dolore odit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, modi nulla accusantium eaque, perspiciatis quis ratione, consequatur rerum unde illum alias illo dicta tenetur placeat! Hic animi dicta dolore odit.</p>
+      <div class="section__description" >
+        <div class="section__description--wrapper">
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, modi nulla accusantium eaque, perspiciatis quis ratione, consequatur rerum unde illum alias illo dicta tenetur placeat! Hic animi dicta dolore odit.</p>
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, modi nulla accusantium eaque, perspiciatis quis ratione, consequatur rerum unde illum alias illo dicta tenetur placeat! Hic animi dicta dolore odit.</p>
+        </div>
+        <figure class="about__img--wrapper"><img src="/HTML Practise Assets/about.jpg" alt=""></figure>
       </div>
-      <figure><img src="/HTML Practise Assets/about.jpg" alt=""></figure>
     </section>
 
     <section id="discord">
